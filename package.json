@@ -1,0 +1,11 @@
+{
+  "name": "redesigned-pancake",
+  "description": "Node-RED project that reads MQTT messages, extracts text, and routes to another MQTT topic based on matching scenarios",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node-red -s settings.js flows.json"
+  },
+  "dependencies": {
+    "node-red": "^3.1.9"
+  }
+}
